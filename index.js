@@ -1,16 +1,16 @@
-var menuBtn = document.querySelector(".hamburgermenu");
-var sideNav = document.querySelector(".menu");
-var menu = document.querySelector(".hamburgermenu .hamburger-btn");
+// var menuBtn = document.querySelector(".hamburgermenu");
+// var sideNav = document.querySelector(".menu");
+// var menu = document.querySelector(".hamburgermenu .hamburger-btn");
 
-sideNav.style.right = "-250px";
+// sideNav.style.right = "-250px";
 
-menuBtn.onclick = function () {
-  if (sideNav.style.right == "-250px") {
-    sideNav.style.right = "0px";
-  } else {
-    sideNav.style.right = "-250px";
-  }
-};
+// menuBtn.onclick = function () {
+//   if (sideNav.style.right == "-250px") {
+//     sideNav.style.right = "0px";
+//   } else {
+//     sideNav.style.right = "-250px";
+//   }
+// };
 
 const productContainer = document.querySelector(".product-container");
 function createProductCard(product) {

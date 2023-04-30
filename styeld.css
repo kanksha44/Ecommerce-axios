@@ -59,7 +59,6 @@
   }
 
   .menu {
-    /* margin-top: 20px; */
     width: 250px;
     height: 100vh;
     position: absolute;
@@ -101,9 +100,9 @@
     color: #ff0000;
     transition: 0.5s;
   }
-  /* .menu {
+  .menu {
     display: none;
-  } */
+  }
 }
 
 /* Carousel */
